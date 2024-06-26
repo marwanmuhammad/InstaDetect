@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    .circle, .circle img {
+        width: 67px;
+        height: 68px;
+        color: none;
+        margin-top: 2px;
+        margin-left: 21px !important;
+    }
+    img.translate-ar {
+        top: 8%;
+        position: absolute;
+        left: 2.5%;
+        background-color: transparent;
+        width: 41px;
+        height: 42px;
+    }
+}

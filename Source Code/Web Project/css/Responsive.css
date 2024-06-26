@@ -1,0 +1,438 @@
+/* Global Responsive Elements */
+@media (max-width: 1000px) {
+    /* Header */
+     .profile-button , .si {
+        display: none;
+    }
+    .upper-header{
+        justify-content: space-between;
+        align-items: center;   
+     height: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+    }
+    .circle{
+        margin-right: 70px;
+    }
+    .ss {
+        margin-left: 91px !important ;
+    }
+    .checko, .checko i,  header ul li{
+        display: block;
+        cursor: pointer;
+        margin-top: -15px;
+    }
+    header{
+        margin: auto;
+        width: 90%;
+    }
+    .lower-header{
+        display: none;
+    }
+    .lower-header2 ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60%;
+        height: 300px;
+        text-align: center;
+        margin-left: 0;
+        position: fixed;
+        top: 80px;
+        right: -100%;
+        z-index: 3;
+        background: rgba( 255, 255, 255, 0.55);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+        backdrop-filter: blur( 4px);
+        -webkit-backdrop-filter: blur(4px);
+        border: 1px solid rgba( 255, 255, 255, 0.18);
+        border-radius: 50px 10px 10px 50px;
+        transition: 0.5s;
+    }
+    .lower-header2 ul li ,     .lower-header2 ul li a{
+        width: 100%;
+    }
+    header ul li a{
+        display: inline-block;
+        padding: 0;
+        color: black;
+        transition: 0.5s all;
+    }
+    header ul li:hover > a{
+        color: #7ba9d5;
+    }
+    header ul li:hover{
+        border-bottom: none;
+    }
+    .logot:hover{
+        color: red;
+    }
+    #check:checked ~ section ul{
+        right: 0;
+    }
+    
+
+
+    /* Footer */
+    footer img{
+        width: 25px;
+    }
+    footer h2{
+        font-size: 12px;
+    }
+
+    .block-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Home */
+    .sec1 .title{
+        font-size: 3em;
+        max-width: 80%;
+        margin: 0 auto;
+}
+.container-fluid{
+    height: auto;
+    flex-direction: column;
+}
+
+.big-tittle{
+    font-size: 2rem;
+}
+.single-fun{
+    justify-content: space-between;
+    width: 100%;
+}
+.fun-section{
+    width : 60%
+}
+.row-hero{
+    justify-content: space-evenly;
+}
+.grid-x{
+    width: 90%;
+    flex-direction: column;
+    height: auto;
+}
+.grid-x:hover{
+    transform: scale(1);
+}
+.cell{
+    width: 100%;
+}
+.large-7{
+    width: 100% !important;
+}
+.adjacent-large-text{
+    font-size: 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+.story-content-title{
+    font-size: 1.5rem;
+    overflow: scroll;
+}
+.backG-heigh{
+    height: auto;
+}
+.container-title{
+    font-size: 2rem;
+}
+.gradient-cards{
+    flex-wrap: wrap;
+    margin: auto;
+}
+.service-card{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.grid{
+    flex-direction: column;
+}
+.card-miss , .card-question{
+    width: 55% !important;
+    margin-bottom: 30px !important;
+}
+.story-content-col-wrapper{
+    text-align: center;
+    margin: auto;
+}
+.our-story-section .our-story-content-col::before{
+    height: 78vh;
+    top: 0;
+    left: 0;
+}
+
+    /* Services */
+    .services-title , .name-page, .storys-title, .Mri-title{
+        font-size: 2rem;
+        margin-top: 7rem;
+    }
+    .line2{
+        height: 10px;
+    }
+    .services{
+        max-height: 50vh; 
+    }
+    .mri-scan{
+        width: 25%;
+    }
+    .services h2 , .services h3{
+        font-size: 24px;
+    }
+
+    /* Contact Us */
+    .form-horizontal {
+        width: 60vw;
+    }
+
+    /* Mri */
+    .mri-header{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /* Mri History */
+    .mri-h-row{
+        gap: 10% !important;
+    }
+    .mri-h-col{
+        width: 40%;
+        margin-bottom: 50px;
+    }
+    .mri-h-card-title{
+        font-size: 24px;
+    }
+
+
+        /* Share Form */
+        .text{
+            font-size: 100px !important;
+        }
+        #storyForm{
+            width: 100%;
+        }
+        .form-row{
+            flex-direction: column;
+        }
+        .input-data{
+            margin-bottom: 5% !important;
+
+        }
+        .input-data input{
+            font-size: 3rem !important;
+            color: rgb(0, 60, 255);
+        }
+        .input-data label , .form-row .input label{
+            font-size: 3rem !important;
+        }
+        select{
+            font-size: 24px;
+        }
+        .form-row .input input{
+            font-size: 2rem;
+        }
+        .form-row .input label{
+            display: block;
+        }
+        #submitStory{
+            font-size: 3rem;
+            font-weight: 600;
+            width: 40%;
+            height: 10%;
+            border: 2px solid black;
+        }
+      
+            .exit-icon-special {
+                width: 69px !important;
+                height: 68px !important;
+            }
+    
+        .exit-icon {
+            width: 50px;
+            height: 50px;
+        }
+}
+
+@media (max-width : 800px) {
+    /* Global */
+    .responsive {
+        margin-top: 51px;
+    }
+    .circle , .circle img{
+        width: 67px;
+        height: 68px;
+        color: none;
+        margin-top: 2px;
+    }
+    #header-logo{
+        font-size : 24px
+    }
+    #header-log{
+        font-size : 24px
+    }
+
+    .button{
+        width : 100px
+    }
+    /* Home */
+    .sec1{
+        margin-top: 4rem;
+        height: 30vh;
+        display: block;
+    }
+    .sec1 .title{
+        font-size: 2em;
+}
+.service-card{
+    width: 90%;
+    margin-bottom: 2rem;
+}
+.big-tittle .title{
+font-size: 2rem;
+}
+
+    /* Services */
+    .services{
+        width: 45%;
+    }
+
+    /* Mri */
+    .section {
+        width: 100vw !important;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+     .mri-center-card{
+        width: 50vw !important;
+    }
+    .mri-center-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-column{
+        width: 50% !important;
+margin: 0 auto !important;
+    }
+
+    /* Community */
+    .card{
+        width: 40%;
+    }
+    .card-body .card-title , .card-body .card-text{
+        text-align: left;
+        margin: 5px 0 5px 0;
+
+    }
+    .popup-box {
+        height: 86vh;
+        width: 95vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .popup-box > img {
+        width: 74%;
+        margin: 0px 0px 29px 54px;
+        height: 48%;
+    }
+    
+    /* Reg and Login */
+    .form{
+        width: 100%;
+        padding: 0 !important;
+    }
+    .form input{
+        width: 90% !important;
+    }
+    .link{
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+}
+
+
+@media (max-width : 600px){
+    
+}
+/* Home */
+
+/* Services */
+
+/* Contact Us */
+
+/* Stories */
+
+/* Share Story */
+
+/* Mri Center */
+
+/* History of Mri */
+
+
+/* Content Of Home Hereeeeee */
+@media (max-width: 800px) {
+    .upper-header {
+        justify-content: space-between;
+        align-items: center;
+        height: 106px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+  
+    hr {
+        margin-top: 9px;
+    }
+    img.translate-ar {
+        width: 41px;
+        height: 46px;
+        border-radius: 45%;
+        background-color: transparent;
+        position: absolute;
+        top: 6%;
+        left: 2.5%;
+    }
+    img.translate {
+        width: 43px;
+        height: 43px;
+        border-radius: 45%;
+        background-color: transparent;
+        position: absolute;
+        top: 9%;
+    }
+    .circle.ss {
+        margin-left: 91px !important;
+    }
+}
+      .reg-container {
+        background-color: transparent;
+        border-radius: 0.7rem;
+        box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25), 0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+        height: 484px;
+        max-width: 724px;
+        overflow: hidden;
+        position: absolute;
+        width: 93%;
+        top: 20%;
+    }
+    .circle.ss {
+        margin-left: 91px;
+    }
+    
+    

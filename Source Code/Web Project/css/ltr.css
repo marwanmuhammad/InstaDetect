@@ -1,0 +1,92 @@
+.upper-header
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: left;
+  justify-content: right;
+}
+.control-label {
+    text-align: right !important;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+}
+/* ----mri photo---- */
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.right-column p {
+    padding: 7px 6px;
+    letter-spacing: 2px;
+    max-width: 90%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+.title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.upper-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+}
+header ul {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+    flex-direction: row-reverse;
+}
+.exit-icon {
+    position: fixed;
+    top: 15px;
+    
+    right: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+select {
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 51.5%;
+    left: 26%;
+}
+.btn-txt{
+    letter-spacing: 0px !important;
+}
+img.translate-ar {
+    top: 6%;
+    position: absolute;
+    left: 2.5%;
+    background-color: transparent;
+    width: 41px;
+    height: 42px;
+}
+@media (max-width: 800px) {
+    .circle, .circle img {
+        width: 67px;
+        height: 68px;
+        color: none;
+        margin-top: 2px;
+        margin-left: 87px !important;
+    }
+    .checko i, header ul li {
+        display: block;
+        cursor: pointer;
+        margin-top: -15px;
+        margin-right: -47px;
+        width: 20px;
+    }
+}
